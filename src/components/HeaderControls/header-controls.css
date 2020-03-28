@@ -1,0 +1,14 @@
+.header-controls {
+    background-color: #C3E4ED;
+    padding: 2em;
+}
+
+.header-control-button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.header-control-inputs {
+    margin-top: 50px;
+    text-align: center;
+}

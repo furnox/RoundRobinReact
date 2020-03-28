@@ -1,0 +1,10 @@
+.sessions {
+    background-color: #FFF;
+    padding: 2em;
+    margin-top: 2em;
+    height: 100%;
+}
+
+.sessions .total-info {
+    margin-bottom: 2em;
+}

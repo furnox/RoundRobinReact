@@ -1,0 +1,18 @@
+.table {
+    background-color: #FFF;
+    display: inline-block;
+    padding: 1em;
+}
+
+.table .participant.label {
+    min-width: 6em;
+    vertical-align: super;
+}
+.table .participant .ui.ban {
+    margin: 0;
+}
+
+.table .table-top {
+    min-width: 4em;
+    text-align: center;
+}

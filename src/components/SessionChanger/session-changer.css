@@ -1,0 +1,79 @@
+.session-changer button {
+    background-color: #2185D0;
+    background-image: none;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1em;
+    margin: 0;
+    min-height: 1em;
+    outline: 0;
+    padding: 0.78em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease;
+    user-select: none;
+    vertical-align: baseline;
+}
+
+.session-changer button:focus {
+    background-color: #0D71BB;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.session-changer button:hover {
+    background-color: #1678C2;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.session-changer button.right {
+    margin: 0 .25em 0 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.session-changer button.left {
+    margin: 0 0 0 .25em;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.session-changer button:disabled {
+    cursor: default;
+    opacity: .45!important;
+    background-image: none!important;
+    box-shadow: none!important;
+    pointer-events: none!important;
+}
+
+.session-changer i {
+    margin: 0 !important;
+}
+.session-changer label {
+    background-color: #E8E8E8;
+    background-image: none;
+    border: 0 solid transparent;
+    color: rgba(0,0,0,.6);
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0;
+    min-height: 1em;
+    min-width: 3em;
+    padding: .78em;
+    text-align: center;
+    text-transform: none;
+    transition: background .1s ease;
+    vertical-align: baseline;
+}
